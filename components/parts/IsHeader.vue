@@ -25,7 +25,7 @@
 </style>
 
 <script>
-import jsonDataFile from "~/public/data/footer.json";
+import jsonDataFile from "~/public/data/header.json";
 export default {
   data() {
     return {
