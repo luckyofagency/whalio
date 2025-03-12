@@ -32,7 +32,8 @@
       </form>
       <div class="skeleton" v-if="!jsonData"></div>
       <p v-if="jsonData">
-        {{ jsonData.p }} <a href="">{{ jsonData.pa }}</a>
+        {{ jsonData.p }}
+        <router-link to="/profile/login">{{ jsonData.pa }}</router-link>
       </p>
     </div>
   </div>
