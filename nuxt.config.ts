@@ -42,6 +42,7 @@ export default defineNuxtConfig({
         { name: "og:site_name", content: "Whalio" },
       ],
       link: [
+        { rel: "stylesheet", href: "/assets/styles/dist/min/all.min.css" },
         { rel: "manifest", href: "/site.webmanifest" },
         {
           rel: "icon",
